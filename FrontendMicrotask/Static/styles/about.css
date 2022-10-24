@@ -1,0 +1,36 @@
+#cardy{
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 10%;
+    height: 60vh;
+    border-radius: 2vw;
+}
+#image{
+    object-fit: cover;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    color: white;
+}
+.leaders{
+    padding: 4vw;
+    margin-left: 4vw;
+}
+.name-link{
+    background-color: #92BB4F;
+    text-align: center;
+    width: 14vw;
+    padding: 0.5vw;
+    color: #ffff;
+    border-radius: 0.5vw;
+}
+.name{
+    color: black;
+}
+#name{
+    color: #ffff;
+}
+.sixth-body-content{
+    text-align: center;
+    font-size: 1vw;
+}
