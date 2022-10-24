@@ -35,7 +35,9 @@
     --color-grey-5: #f8f8f8;
     --color-grey-6: #12181b;
   }
-  
+  .main-content{
+    background-color: var(--color-primary);
+  }
   body {
     font-family: "Poppins", sans-serif;
     background-color: var(--color-primary);
@@ -257,3 +259,5 @@
     transform: translateX(0);
     transition: all 0.4s ease-in;
   }/*# sourceMappingURL=index.css.map */
+
+  

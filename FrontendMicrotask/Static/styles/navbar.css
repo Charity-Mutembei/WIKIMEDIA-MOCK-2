@@ -1,0 +1,19 @@
+.nav-item{
+    display: flex;
+    align-items: center;
+    padding-right: 6vw;
+}
+.navbar-brand{
+    padding-right: 20vw;
+    padding-left: 4vw;
+    font-size: 2vw;
+    font-weight: 600;
+}
+.navbar{
+    font-family: "Poppins", sans-serif;
+}
+.nav-link{
+    font-size: 1.1vw;
+    font-weight: 100;
+    line-height: 2vw;
+}
