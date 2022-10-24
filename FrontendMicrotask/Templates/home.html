@@ -1,0 +1,67 @@
+{% load static %}
+
+<head>
+    <link rel="stylesheet" type="text/css" media="screen" href="{% static 'styles\home.css' %}">
+</head>
+
+<body>
+    <div class="main">
+
+        <div class="first-body-content">
+            <div class="row">
+                <div class="col-9">
+                    <p id="content">
+                        Welcome to Citation Hunt !</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="third-body-content">
+            <div class="information">
+                <p id="information">        
+                    The Wikipedia snippet below is not backed by a reliable source. Can you find one?
+                    Click I've got this! to go to Wikipedia and fix the snippet, or Next! to see another one.
+                    Good luck!
+                </p>
+            </div>
+        </div>
+        <div class="fourth-body-content">
+            <div class="snippet">
+                <p class="text">
+                    In page <span class="blue">History of Burundi</span>: <br>
+                
+                    “
+                    European explorers and missionaries made brief visits to the area as early as 1856,<span class="blue">[1]</span> and they compared the
+                    organization of the kingdom of Burundi with that of the old Greek empire. <span class="blue">[citation needed]</span> It was not until 1899
+                    that Burundi became a part of German East Africa. <span class="blue">[1]</span> Unlike the Rwandan monarchy, which decided to accept the German
+                    advances, the Burundian king Mwezi IV Gisabo opposed all European influence, refusing to wear European clothing and
+                    resisting the advance of European missionaries or administrators.”
+                </p>
+                <div class="fifth-body-content">
+                    <div class="row" class="button">
+                        <div class="col">
+                            <a href="#"><button type="button" id="button" class="btn btn-dark" >I’ve got this !</button></a>
+                        </div>
+                        <div class="col">
+                            <a href="#"><button type="button" id="button" class="btn btn-dark" style="background-color: black;"> Next Please!</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sixth-body-content">
+            <div class="row">
+                <div class="col-10" id="foot">
+                    <p class="footer">
+                        Citation Hunt is made by volunteers, hosted on Tools Labs and translated via. Hey! My source is on GitHub!
+                    </p>
+                </div>
+                <div class="col-2">
+                    <p>
+                        <a href="#">translatewiki.net</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
