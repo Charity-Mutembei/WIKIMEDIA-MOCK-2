@@ -16,13 +16,39 @@
 <body class="main-content">
     {% include 'navbar.html'%}
     <header class="section sec1 header active" id="home">
-       {% include 'home.html' %} 
+       {% include 'cite.html' %} 
     </header>
     <main>
         <section class="section sec2 about" id="about">
             {%  include 'about.html' %}
         </section>
-        <section class="section sec3 portfolio" id="projects"></section>
+        <section class="section sec3 portfolio" id="projects">
+            <div class="form-popup" id="myForm">
+                <form action="/action_page.php" class="form-container">
+                    <p>
+                        You can customize Citation Hunt by providing a 
+                        list of articles. This gives you a link that 
+                        you can share with others so they browse Citation
+                         Hunt limited to the articles you provided.
+                    </p>   
+                    <p>
+                        How would you like to create a custom Citation Hunt?
+                    </p>
+                    <li>
+                        <ul>
+                            <a href="#">Search for articles in Citation Hunt.</a>
+                        </ul>
+                        <ul>
+                            <a href="#">Enter a list of articles</a>
+                        </ul>
+                        <ul>
+                            <a href="#">Import from a PetScan query</a>
+                        </ul>
+                    </li>             
+                  <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+                </form>
+              </div>
+        </section>
     </main>
     <div class="controls">
         <div class="control control-1 active-btn" data-id="home">
@@ -31,7 +57,7 @@
         <div class="control control-2" data-id="about">
             <i class="fa-solid fa-user-graduate"></i>
         </div>
-        <div class="control control-3" data-id="projects">
+        <div class="control control-3" data-id="projects" class="open-button" onclick="openForm()">
             <i class="fa-solid fa-gear"></i>
         </div>
 

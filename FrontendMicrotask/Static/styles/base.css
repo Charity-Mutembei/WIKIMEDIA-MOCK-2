@@ -260,4 +260,77 @@
     transition: all 0.4s ease-in;
   }/*# sourceMappingURL=index.css.map */
 
+  /* pop up modal  */
+  * {box-sizing: border-box;}
+
+/* Button used to open the contact form - fixed at the bottom of the page */
+.open-button {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+}
+
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+  position: fixed;
+  padding-left: 6vw;
+  padding-right: 8vw;
+  top: 14vw;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+  /* max-width: 300px; */
+  padding: 2vw;
+  background-color: rgba(146, 187, 79, 0.21);;
+  border-radius: 2vw;
+}
+
+/* Full-width input fields */
+.form-container input[type=text], .form-container input[type=password] {
+  width: 100%;
+  padding: 1vw;
+  margin: 1vw 0 1vw 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 1vw 1vw;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:1vw;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  /* background-color: red; */
+  background-color: var(--color-primary);
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+  color: #FFFFFF;
+}
   

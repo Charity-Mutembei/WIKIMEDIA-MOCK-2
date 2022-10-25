@@ -2,7 +2,6 @@
     margin-top: 10%;
     margin-left: 5%;
     margin-right: 10%;
-    height: 60vh;
     border-radius: 2vw;
 }
 #image{
@@ -15,6 +14,7 @@ body{
 .leaders{
     padding: 4vw;
     margin-left: 4vw;
+    margin-top: 3vw;
 }
 .name-link{
     background-color: #92BB4F;
@@ -33,4 +33,7 @@ body{
 .sixth-body-content{
     text-align: center;
     font-size: 1vw;
+}
+.citors{
+    margin-top: 2vw;
 }

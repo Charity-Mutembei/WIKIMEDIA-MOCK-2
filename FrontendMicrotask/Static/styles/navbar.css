@@ -1,10 +1,10 @@
 .nav-item{
     display: flex;
-    padding-right: 6vw;
+    padding-right: 4vw;
 }
 .navbar-brand{
-    padding-right: 20vw;
-    padding-left: 4vw;
+    padding-right: 10vw;
+    padding-left: 2vw;
     font-size: 2vw;
     font-weight: 600;
 }

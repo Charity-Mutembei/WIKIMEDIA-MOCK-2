@@ -11,3 +11,13 @@
         document.body.classList.toggle("light-mode");
     })
 })();
+
+
+// pop up part 
+function openForm() {
+    document.getElementById("myForm").style.display = "block";
+  }
+  
+  function closeForm() {
+    document.getElementById("myForm").style.display = "none";
+  }
