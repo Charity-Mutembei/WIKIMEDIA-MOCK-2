@@ -2,7 +2,7 @@
 
 
 
-##### This is a frontend project for the wikimedia [ Setup Frontend Web App for Toolhub records management](#) needing a tool to be likened to a citation hunt. The project has been pushed to the repository - [wikimedia-mockup-page](https://github.com/Charity-Mutembei/WIKIMEDIA-MOCK-2). This mock design is inspired by the [Citation Hunt Tool](https://citationhunt.toolforge.org/en?id=003f78f5). The project is also deployed [here](charitymutembei.pythonanywhere.com/). 
+##### This is a frontend project for the wikimedia [ Setup Frontend Web App for Toolhub records management](#) needing a tool to be likened to a citation hunt. The project has been pushed to the repository - [wikimedia-mockup-page](https://github.com/Charity-Mutembei/WIKIMEDIA-MOCK-2). This mock design is inspired by the [Citation Hunt Tool](https://citationhunt.toolforge.org/en?id=003f78f5). The project is also deployed [here](http://charitymutembei.pythonanywhere.com/). 
 
 <br>
 
