@@ -1,4 +1,4 @@
-# WIKIMEDIA-MOCKUP-PAGE #1 
+# WIKIMEDIA-MOCKUP-PAGE #2
 
 
 
@@ -6,7 +6,7 @@
 
 <br>
 
-## [Diagram Representation](https://www.figma.com/file/QtsWSYRYphGdEkjAPSxKvD/Citation-hunt?node-id=0%3A1) 
+## [Diagram Representation](https://user-images.githubusercontent.com/100141458/198135387-b2f17435-87d3-4fb1-86e4-3faa8e0ecc47.mp4) 
 <br>
 
 
