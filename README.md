@@ -2,7 +2,7 @@
 
 
 
-##### This is a frontend project for the wikimedia [ Setup Frontend Web App for Toolhub records management](#) needing a tool to be likened to a citation hunt. The project has been pushed to the repository - [wikimedia-mock-landing-page ](https://github.com/Charity-Mutembei/WIKIMEDIA-MOCK-2). This mock design is inspired by the [Citation Hunt Tool](https://citationhunt.toolforge.org/en?id=003f78f5). 
+##### This is a frontend project for the wikimedia [ Setup Frontend Web App for Toolhub records management](#) needing a tool to be likened to a citation hunt. The project has been pushed to the repository - [wikimedia-mockup-page](https://github.com/Charity-Mutembei/WIKIMEDIA-MOCK-2). This mock design is inspired by the [Citation Hunt Tool](https://citationhunt.toolforge.org/en?id=003f78f5). The project is also deployed [here](charitymutembei.pythonanywhere.com/). 
 
 <br>
 
@@ -27,10 +27,16 @@
 ##### To run the [local-server](http://127.0.0.1:8000), run the command; python manage.py runserver in your terminal. 
 ##### Hooray!!!!!! You have your project cloned and running. 
 
-## Developer Instructions. Explain the process of instructions on the installation and the contribuition of the same. How would they work on the project?
-
-## Expectations for those wishing to contribute on the project. Maybe, reach out before forking or contributing. 
+## Developer Instructions.
+##### Expectations for those wishing to contribute on the project include; 
+##### 1.Reach out before forking or contributing.
+##### 2. Feel free to anytime  
 
 ## Known issues of the project 
+##### These project implements the use of JavaScript, however; 
+##### 1. When using the buttons on the side to navigate through the various sections/pages, they overlap one another unless the home button is clicked on first. 
+##### 2. The links do not lead to any external links as presumed since its a mock page of the original tool. 
+###### 3. No API endpoints are used and so no data is collected or stored as it would be expected. 
 
-## Contact info / donation infor? / Like the project maybe? 
+## Contact info / donation infor? / Like the project maybe?/ Want to leave feedback?
+#####  Contacts me through my [email](charity.softwaredev@gmail.com) 
