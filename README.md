@@ -39,4 +39,4 @@
 ###### 3. No API endpoints are used and so no data is collected or stored as it would be expected. 
 
 ## Contact info / donation infor? / Like the project maybe?/ Want to leave feedback?
-#####  Contacts me through my [email](charity.softwaredev@gmail.com) 
+#####  Contacts me through my email [charity.softwaredev@gmail.com] 
